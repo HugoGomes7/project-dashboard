@@ -15,7 +15,35 @@ function DataTable() {
         <tbody>
           <tr>
             <td>07/11/2021</td>
-            <td>Hugão</td>
+            <td>Hugo Gomes</td>
+            <td>34</td>
+            <td>30</td>
+            <td>11.890,00</td>
+          </tr>
+          <tr>
+            <td>07/11/2021</td>
+            <td>Hugo Gomes</td>
+            <td>34</td>
+            <td>30</td>
+            <td>11.890,00</td>
+          </tr>
+          <tr>
+            <td>07/11/2021</td>
+            <td>Hugo Gomes</td>
+            <td>34</td>
+            <td>30</td>
+            <td>11.890,00</td>
+          </tr>
+          <tr>
+            <td>07/11/2021</td>
+            <td>Hugo Gomes</td>
+            <td>34</td>
+            <td>30</td>
+            <td>11.890,00</td>
+          </tr>
+          <tr>
+            <td>07/11/2021</td>
+            <td>Hugo Gomes</td>
             <td>34</td>
             <td>30</td>
             <td>11.890,00</td>
