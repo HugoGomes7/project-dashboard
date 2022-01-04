@@ -32,10 +32,10 @@ public class Sale {
 	}
 	
 	//Construtor com argumentos: Source> Generate Constructor using Fields> select all;
-	public Sale(Long id, Integer visited, Integer deal, Double amount, LocalDate date, Seller seller) {
+	public Sale(Long id, Integer visited, Integer deals, Double amount, LocalDate date, Seller seller) {
 		this.id = id;
 		this.visited = visited;
-		this.deals = deal;
+		this.deals = deals;
 		this.amount = amount;
 		this.date = date;
 		this.seller = seller;
@@ -58,12 +58,12 @@ public class Sale {
 		this.visited = visited;
 	}
 
-	public Integer getDeal() {
+	public Integer getDeals() {
 		return deals;
 	}
 
-	public void setDeal(Integer deal) {
-		this.deals = deal;
+	public void setDeal(Integer deals) {
+		this.deals = deals;
 	}
 
 	public Double getAmount() {
