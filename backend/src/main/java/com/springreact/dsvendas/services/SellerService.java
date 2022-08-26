@@ -12,14 +12,14 @@ import com.springreact.dsvendas.repositories.SellerRepository;
 
 @Service
 public class SellerService {
-	
+
 	@Autowired // injeta dependências de forma transparente
 	private SellerRepository repository;
-	
-	public List<SellerDTO> findAll (){
-		List <Seller> result = repository.findAll();
+
+	public List<SellerDTO> findAll() {
+		List<Seller> result = repository.findAll();
 		return result.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList());
-		//realizada a conversão
+		// realizada a conversão
 	}
 
 }

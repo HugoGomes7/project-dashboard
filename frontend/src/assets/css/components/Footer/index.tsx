@@ -5,7 +5,7 @@ function Footer() {
         <div className="container">
           <p className="text-light">App desenvolvido por <a href="https://github.com/HugoGomes7" target="_blank" rel="noreferrer">Hugo Gomes</a></p>
           <p className="text-light"><small><strong>Project Spring Boot React</strong><br />
-            Siga-me: <a href="https://www.instagram.com/hugo_gomess7/" target="_blank" rel="noreferrer">@hugo_gomess7.ig</a></small></p>
+            Siga-me: <a href="https://www.instagram.com/_hugodlucca/" target="_blank" rel="noreferrer">@_hugodlucca.ig</a></small></p>
         </div>
       </footer>
 

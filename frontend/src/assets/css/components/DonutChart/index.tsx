@@ -14,11 +14,11 @@ function DonutChart() {
   }
 
   return (
-    <Chart
-      options={{ ...options, labels: mockData.labels }}
-      series={mockData.series}
-      type="donut"
-      height="240"
+    <Chart // componente do Apex Charts
+      options={{ ...options, labels: mockData.labels }} // "... pega todos o objeto + outros após a vírgula  
+      series={mockData.series} // valores do gráfico  
+      type="donut" //tipo
+      height="240" // tamanho
     />
   );
 }

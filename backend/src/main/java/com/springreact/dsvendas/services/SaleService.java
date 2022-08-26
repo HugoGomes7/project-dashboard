@@ -18,13 +18,13 @@ import com.springreact.dsvendas.repositories.SellerRepository;
 @Service
 public class SaleService {
 	
-	@Autowired
+	@Autowired // injetado de forma transparente
 	private SaleRepository repository;
 	
-	@Autowired
+	@Autowired 
 	private SellerRepository sellerRepository;
 	
-	@Transactional(readOnly = true)
+	@Transactional(readOnly = true) // para não realizar looking no banco
 	public Page<SaleDTO> findAll (Pageable pageable){
 		sellerRepository.findAll();
 		Page <Sale> result = repository.findAll(pageable);

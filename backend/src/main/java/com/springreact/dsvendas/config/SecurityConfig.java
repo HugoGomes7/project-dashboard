@@ -21,13 +21,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private Environment env;
 
-	@Override
+	@Override // liberar o app de gerenciamento do Bd H2
 	protected void configure(HttpSecurity http) throws Exception {
 		if (Arrays.asList(env.getActiveProfiles()).contains("test")) {
 			http.headers().frameOptions().disable();
 		}
 		
-		//Libera cors e não mantém estado devido o STATELESS
+		//Libera cors e não mantém estado devido o STATELESS (API REST - não mantém estadp)
 		http.cors().and().csrf().disable();  
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS); 
 		http.authorizeRequests().anyRequest().permitAll();
