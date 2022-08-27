@@ -24,11 +24,6 @@ function DonutChart() {
       });
   }, []);
 
-  // const mockData = { // dados estáticos
-  //  series: [477138, 499928, 444867, 220426, 473088],
-  // labels: ['Vendedor 1', 'Vendedor 2', 'Vendedor 3', 'Vendedor 4', 'Vendedor 5']
-  //}
-
   const options = {
     legend: {
       show: true
