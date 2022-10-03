@@ -15,6 +15,7 @@ const Home = () => {
           <Link className="btn btn-primary btn-lgn" to="/dashboard">
             Acessar Dashboard
           </Link>
+          <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
       </div>
       <Footer />
