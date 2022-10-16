@@ -1,7 +1,7 @@
 # Project Dashboard
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/HugoGomes7/project-dashboard/blob/main/LICENSE) 
 
-# About the pro
+# About the project
 
 https://dsvendas-hugogomes.netlify.app/
 
