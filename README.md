@@ -1,13 +1,13 @@
 # Project Dashboard
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/HugoGomes7/project-dashboard/blob/main/LICENSE) 
 
-# Sobre o projeto
+# About the pro
 
 https://dsvendas-hugogomes.netlify.app/
 
-Project Dashboard é uma aplicação full stack web desenvolvida no intuíto de colocar em práticaa algumas das tecnlogias mais solicitadas do mercado atual na qual eu tenho conhecimento.
+Project Dashboard is a full stack web application developed in order to put into practice some of the most requested technologies in the current market in which I have knowledge.
 
-A aplicação consiste em coletar dados de vendas fornecidos por um backend e exibir em uma dashboard.
+The aplication consists of collecting sales data provided by a backend and displaying it on a dashboard.
 
 ## Layout web
 ![Web 1](https://github.com/HugoGomes7/project-dashboard/blob/main/assets/tela%20inicial.png)
@@ -17,7 +17,7 @@ A aplicação consiste em coletar dados de vendas fornecidos por um backend e ex
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/HugoGomes7/project-dashboard/blob/main/assets/modelo%20conceitual.png)
 
-# Tecnologias utilizadas
+# Technologies used
 ## Backend
 - Java
 - Spring Boot
@@ -28,45 +28,45 @@ A aplicação consiste em coletar dados de vendas fornecidos por um backend e ex
 - ReactJS
 - Apex Charts
 - Bootstrap
-## Implantação em produção
+## Deployment in production
 - Backend: Heroku
 - Frontend: Netlify
 - Banco de dados: PostgreSQL
 
-# Como executar o projeto
+# How to run the project
 
 ## Backend
-Pré-requisitos: Java 11
+prerequisite: Java 11
 
 ```bash
-# clonar repositório
+# clone repository
 git clone https://github.com/HugoGomes7/project-dashboard
 
-# entrar na pasta do projeto backend
+# enter the backend project folder
 cd backend
 
-# executar o projeto
+# run the proeject
 ./mvnw spring-boot:run
 ```
 
 ## Frontend
-Pré-requisitos: npm / yarn
+prerequisite: npm / yarn
 
 ```bash
-# clonar repositório
+# clone repository
 git clone https://github.com/HugoGomes7/project-dashboard
 
-# entrar na pasta do projeto front end web
+# enter the frontend project folder
 cd frontend
 
-# instalar dependências
+# install dependencys
 yarn install
 
-# executar o projeto
+# run the project
 yarn start
 ```
 
-# Autor
+# Author
 
 Hugo Rômulo Miranda Gomes
 
